@@ -5,9 +5,8 @@ This project is not production-ready, but it demonstrates ambition, self-motivat
 
 ## Features
 - Intercept and inspect HTTP requests/responses  
-- Modify traffic on the fly  
-- Dark mode GUI by default  
-- Written entirely in Go  
+- Modify traffic on the fly
+- Bruteforce directories or username/password fields
 
 ## Notes
 - Only tested on Kali Linux and Linux Mint  
