@@ -12,6 +12,7 @@ This project is not production-ready, but it demonstrates ambition, self-motivat
 - Only tested on Kali Linux and Linux Mint  
 - GUI requires X11 libraries
 - The compilation process takes a while (around 5 minutes) because it needs to compile and link the GUI library, which includes C bindings for graphical functionality.
+- May contain bugs, I haven't had the time to thoroughly test the program. 
 
 ## Technical Setup
 
