@@ -29,7 +29,7 @@ sudo apt install xorg-dev libx11-dev libxcursor-dev libxrandr-dev libxinerama-de
 
 ### 3. Clone the project
 ```
-https://github.com/Sviatko124/WebRat
+git clone https://github.com/Sviatko124/WebRat
 cd WebRat
 ```
 
