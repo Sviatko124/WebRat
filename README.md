@@ -5,7 +5,7 @@ This project is not production-ready, but it demonstrates ambition, self-motivat
 
 ## Features
 - Intercept and inspect HTTP requests/responses  
-- Modify traffic on the fly
+- Modify intercepted traffic
 - Bruteforce directories or username/password fields
 
 ## Notes
@@ -39,7 +39,7 @@ GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -o WebRat cmd/main.go
 ```
 
 The compilation process may take a long time due to the Fyne GUI framework, but after that, you should be left with a single binary. 
-The usage of the program should be intuitive enough, as it isn't nearly as complex as Burp Suite. 
+The usage of the program should be intuitive enough, as it isn't nearly as complex as BurpSuite. 
 To use the proxy, use a browser extension to easily manage proxies (like FoxyProxy) and add the following proxy:
 ```
 IP: localhost
